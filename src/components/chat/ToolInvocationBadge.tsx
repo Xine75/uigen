@@ -1,5 +1,6 @@
 import { Loader2 } from "lucide-react";
 
+/** Badge that displays a human-readable label for AI tool invocations. */
 interface ToolInvocation {
   toolName: string;
   state: string;
